@@ -1,0 +1,24 @@
+{
+    "name": "node-typescript-boilerplate",
+    "version": "1.0.0",
+    "description": "A minimal boilerplate for Node.js projects using TypeScript and Jest for testing. Perfect for small projects, training purposes, or as a foundation for larger applications.",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc -p tsconfig.build.json",
+        "start": "node -r ts-node/register src/index.ts",
+        "start:watch": "node --watch -r ts-node/register src/index.ts",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "mrouabehi <contact@mrouabehi.me>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "@types/node": "^22.10.1",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.5",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.19.2",
+        "typescript": "^5.7.2"
+    }
+}
